@@ -37,7 +37,7 @@ Test from any machine with `nc <server-ip> 5000` as well.
 - Broadcast, private messages, nick change, duplicate nick rejection, unknown user, `/list`, `/quit`.
 - 300 concurrent clients connecting, chatting and disconnecting with no crash or leak of connections.
 
-## Ideas to extend (for day 2)
+## Ideas to extend 
 
 - Thread-pool version (`std::thread` + mutex) to compare against epoll.
 - Chat rooms / channels (`/join <room>`).
